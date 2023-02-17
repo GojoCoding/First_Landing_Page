@@ -35,7 +35,7 @@ button {
   display: flex;
   width: 100%;
   padding: 20px;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items: center;
 }
 
@@ -67,3 +67,90 @@ button {
 .show_case .left_side p {
   margin: 20px 0;
 }
+
+/* Content Info */
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.features img {
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  padding: 40px;  
+}
+
+.features .item_img {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* Quotes */
+.quote {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  padding: 200px;
+}
+
+.quote #p2 {
+  margin: 20px;
+  align-self: flex-end;
+}
+
+/* Call to Action */
+
+.call_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+.action_initiate {
+  background-color: #3882F6;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.action_initiate div p {
+  margin: 10px;
+}
+
+.action_initiate button {
+  background-color: #3882F6;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border: 1px #fff solid;
+  border-radius: 5px;
+  width: 100px;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #fff;
+    padding: 50px;
+  }
